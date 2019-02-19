@@ -45,4 +45,19 @@ class MainActivity : AppCompatActivity() {
         }
         behavior.state = BottomSheetBehavior.STATE_HIDDEN
     }
+
+    /**
+     * handles toggling events on button press
+     */
+    fun toggleSheet(v : View) {
+        val behavior = BottomSheetBehavior.from(component)
+        if (behavior.state != BottomSheetBehavior.STATE_HIDDEN) {
+            if (!behavior.isHideable) {
+                behavior.isHideable = true
+            }
+            behavior.state = BottomSheetBehavior.STATE_HIDDEN
+        } else {
+            behavior.state = BottomSheetBehavior.STATE_COLLAPSED
+        }
+    }
 }

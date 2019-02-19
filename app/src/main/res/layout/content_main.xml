@@ -11,6 +11,15 @@
     tools:showIn="@layout/activity_main"
     tools:context=".MainActivity">
     
+    <Button
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toggle_bottom_sheet"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:onClick="toggleSheet"/>
+    
     <com.example.bottomsheetdemo.BottomSheetComponent
         android:id="@+id/component"
         android:layout_width="match_parent"

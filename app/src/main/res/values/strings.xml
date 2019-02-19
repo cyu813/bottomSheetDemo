@@ -4,4 +4,5 @@
     <string name="bottom_sheet_title">Bottom Sheet Title</string>
     <string name="bottom_sheet_subtitle">Subtitle</string>
     <string name="bottom_sheet_content">bottom sheet content\n\n\n\n\n\n\n\n\n\nmiddle middle middle\n\n\n\n\n\n\n\n\n\n\n\n\n\ntest test test</string>
+    <string name="toggle_bottom_sheet">Toggle Bottom Sheet</string>
 </resources>
