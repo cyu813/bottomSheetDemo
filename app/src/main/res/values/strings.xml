@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bottom Sheet Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="bottom_sheet_title">Bottom Sheet Title</string>
+    <string name="bottom_sheet_subtitle">Subtitle</string>
+    <string name="bottom_sheet_content">bottom sheet content\n\n\n\n\n\n\n\n\n\nmiddle middle middle\n\n\n\n\n\n\n\n\n\n\n\n\n\ntest test test</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="bottom_sheet_attributes">
+        <attr name="bottom_sheet_title" format="reference" />
+        <attr name="bottom_sheet_subtitle" format="reference" />
+    </declare-styleable>
+</resources>
