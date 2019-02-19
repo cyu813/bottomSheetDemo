@@ -14,3 +14,5 @@ note : BottomSheetComponent must be a child of CoordinatorLayout, and must use t
         }
 ```
 
+## custom methods
+BottomSheetComponent contains some wrapper methods for setting titles and subtitles for the textviews, also a setContent method to swap in any desired view(s) <br>
