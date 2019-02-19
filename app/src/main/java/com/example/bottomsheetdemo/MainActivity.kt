@@ -39,6 +39,10 @@ class MainActivity : AppCompatActivity() {
      * dismissses the bottom sheet when the X button is pressed
      */
     fun dismiss(v : View) {
-        BottomSheetBehavior.from(component).state = BottomSheetBehavior.STATE_HIDDEN
+        val behavior = BottomSheetBehavior.from(component)
+        if (!behavior.isHideable) {
+            behavior.isHideable = true
+        }
+        behavior.state = BottomSheetBehavior.STATE_HIDDEN
     }
 }
